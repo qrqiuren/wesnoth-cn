@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: wesnoth-1.14\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2018-05-15 23:33-0400\n"
-"PO-Revision-Date: 2018-05-16 22:50+0800\n"
-"Last-Translator: CloudiDust <cloudidust@gmail.com>\n"
+"PO-Revision-Date: 2018-05-24 00:14+0900\n"
+"Last-Translator: qrqiuren <qrqiuren@users.noreply.github.com>\n"
 "Language-Team: Wesnoth Simplified Chinese Team\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -4832,25 +4832,25 @@ msgstr ""
 "请尝试将截屏保存为PNG。"
 
 msgid "Recruits"
-msgstr "次征募"
+msgstr "征募次数"
 
 msgid "Recalls"
-msgstr "次召回"
+msgstr "召回次数"
 
 msgid "Advancements"
-msgstr "次升级"
+msgstr "升级次数"
 
 msgid "Losses"
-msgstr "次损失"
+msgstr "损失次数"
 
 msgid "Kills"
-msgstr "次击杀"
+msgstr "击杀次数"
 
 msgid "Inflicted"
-msgstr "点造成的伤害"
+msgstr "造成的伤害点数"
 
 msgid "Taken"
-msgstr "点受到的伤害"
+msgstr "受到的伤害点数"
 
 msgid "Choose Test"
 msgstr "选择测试"
