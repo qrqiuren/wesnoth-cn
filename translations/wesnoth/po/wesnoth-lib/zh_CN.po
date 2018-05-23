@@ -1888,7 +1888,7 @@ msgstr "按照战役全名的字母顺序排序"
 
 #. [toggle_button]: id=sort_time
 msgid "Dates"
-msgstr "日期"
+msgstr "年代"
 
 #. [toggle_button]: id=sort_time
 msgid "Sort in approximate chronological order of story events"
