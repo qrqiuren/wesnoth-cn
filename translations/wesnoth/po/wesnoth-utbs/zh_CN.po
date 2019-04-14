@@ -1,5 +1,5 @@
 # The Battle for Wesnoth - Simplified Chinese Translations
-# Copyright (C) 2005-2018 Wesnoth development team
+# Copyright (C) 2005-2019 Wesnoth development team
 # This file is distributed under the same license as the Battle for Wesnoth package.
 # luojie <lililjlj@gmail.com>, 2009.
 # MrKing <yideey@gmail.com>, 2012.
@@ -9,9 +9,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-1.14\n"
-"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-05-16 03:33 UTC\n"
-"PO-Revision-Date: 2018-05-17 22:33+0800\n"
+"Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2019-01-27 09:23 UTC\n"
+"PO-Revision-Date: 2019-02-04 18:15+0800\n"
 "Last-Translator: CloudiDust <cloudidust@gmail.com>\n"
 "Language-Team: Wesnoth Simplified Chinese Team\n"
 "Language: zh_CN\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n>1;\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. [campaign]: id=Under_the_Burning_Suns
 #. [editor_group]: id=utbs
@@ -119,8 +119,8 @@ msgstr ""
 msgid "The Morning After"
 msgstr "天亮以后"
 
-#. [side]: id=Kaleh, type=Quenoth Youth
 #. [side]
+#. [side]: id=Kaleh, type=Quenoth Youth
 msgid "team_name^Quenoth Elves"
 msgstr "奎诺精灵"
 
@@ -128,10 +128,10 @@ msgstr "奎诺精灵"
 msgid "Monsters"
 msgstr "怪物"
 
+#. [side]
 #. [side]: id=Panok, type=Direwolf Rider, type=Goblin Knight
 #. [side]: id=Turg, type=Orcish Warrior, type=Orcish Warlord
 #. [side]: id=Ug'lok, type=Orcish Warrior, type=Orcish Warlord
-#. [side]
 msgid "Evil"
 msgstr "邪恶"
 
@@ -287,8 +287,8 @@ msgstr "赛尔"
 msgid "Kaleh, Nym, help us!"
 msgstr "卡勒， 妮慕， 来帮我们！"
 
-#. [message]: speaker=Kaleh
 #. [message]: speaker=Nym
+#. [message]: speaker=Kaleh
 msgid "What in Uria’s name is that?"
 msgstr "那尤里安的是什么？"
 
@@ -853,6 +853,7 @@ msgid "Do you remember anything about these sands?"
 msgstr "还记得这片沙漠吗？"
 
 #. [message]: speaker=narrator
+#. [unit]: type=Defeated Corrupted Quenoth Elf, id=Garak_defeated
 msgid "Garak"
 msgstr "伽拉克"
 
@@ -1523,6 +1524,12 @@ msgstr "逃啊，你们这些胆小的灵魂，能不能和平一些！"
 msgid "A Stirring in the Night"
 msgstr "匆忙的夜"
 
+#. [time]
+#. Use the same translation as for the string in the wesnoth-help textdomain.
+#. Use the same translation as for the string in the wesnoth-help textdomain.
+msgid "The Long Dark"
+msgstr "漫漫长夜"
+
 #. [side]: id=Azkotep, type=Lich
 msgid "Azkotep"
 msgstr "阿兹卡提"
@@ -2035,6 +2042,7 @@ msgstr "看吧，我说过了我变强了。游戏结束了，现在我可以离
 msgid "He’s... he’s still breathing!"
 msgstr "他……他还有呼吸！"
 
+#. [message]: speaker=Garak_defeated
 #. [message]: speaker=Garak
 msgid "Protect the boy for me Zhul, (<i>cough</i>) I go to a better place."
 msgstr "朱尔，帮我保护这男孩，（<b>咳嗽</b>）我要去一个好地方了。"
@@ -2565,9 +2573,9 @@ msgstr ""
 "见。我不知道我在这里干什么。某种神秘的东西让我不自觉地来到这里，我有种不祥的"
 "预感。"
 
-#. [unit]: type=Dark Assassin3, id=Cloaked Figure
-#. [unit]: type=Dark Assassin2, id=Cloaked Figure
 #. [unit]: type=Dark Assassin1, id=Cloaked Figure
+#. [unit]: type=Dark Assassin2, id=Cloaked Figure
+#. [unit]: type=Dark Assassin3, id=Cloaked Figure
 msgid "Cloaked Figure"
 msgstr "戴斗篷者"
 
@@ -2866,11 +2874,6 @@ msgstr "蜘蛛不是昆虫。"
 #. [message]: speaker=Nym
 msgid "Thanks for the clarification."
 msgstr "谢谢提醒。"
-
-#. [unit]: type=Dwarvish Fighter, id=Wounded Dwarf
-#. [event]
-msgid "Wounded Dwarf"
-msgstr "受伤的矮人"
 
 #. [message]: speaker=Wounded Dwarf
 msgid "Help! They’re everywhere!"
@@ -3624,6 +3627,10 @@ msgstr ""
 msgid "Intruders! Kill them!"
 msgstr "有入侵者！杀啊！"
 
+#. [unit]: type=Dwarvish Fighter, id=Wounded Dwarf
+msgid "Wounded Dwarf"
+msgstr "受伤的矮人"
+
 #. [message]: speaker=Troll Interrogator
 msgid "Tell us where your leader is hiding!"
 msgstr "你们的首领藏在哪里！"
@@ -4033,8 +4040,8 @@ msgid "Enemies"
 msgstr "敌人"
 
 #. [side]: id=King Thurongar, type=Dwarvish Lord
-#. [side]: id=Melusand, type=Mermaid Diviner
 #. [side]: id=Great Leader Darmog, type=Great Troll
+#. [side]: id=Melusand, type=Mermaid Diviner
 #. [side]
 msgid "Allies"
 msgstr "同盟"
@@ -5153,8 +5160,8 @@ msgstr "好吧，越快离开这里我越高兴。"
 msgid "Wait, did you feel that?"
 msgstr "等下，你们感觉到什么了吗？"
 
-#. [message]: speaker=Nym
 #. [message]
+#. [message]: speaker=Nym
 msgid "What?"
 msgstr "什么？"
 
@@ -6445,8 +6452,8 @@ msgstr ""
 "陵。山谷的中央是平的，四周是沙丘。山谷中央似乎有定居点。在更远的北边，我看见"
 "天际似乎有闪光，但我不知道那是什么。"
 
-#. [event]
 #. [unit]: type=Divine Avatar, id=Eloh
+#. [event]
 #. [side]
 #. [unit]: type=Divine Incarnation, id=Eloh
 msgid "Eloh"
@@ -8014,8 +8021,8 @@ msgid ""
 msgstr ""
 "我来告诉你们一个坏消息：你们中有一个人背叛了我，他是你们遭受磨难的原因。"
 
-#. [message]: speaker=Zhul
 #. [message]
+#. [message]: speaker=Zhul
 msgid "No!"
 msgstr "不！"
 
@@ -10475,7 +10482,7 @@ msgstr "她的咒语解除了，但我们还没有胜利。来帮我们！"
 msgid "Yes priestess."
 msgstr "遵命，祭祀。"
 
-#. [unit]: type=Central Body, id=Yechnagoth
+#. [unit]: type=Central Body1, id=Yechnagoth
 #. [unit]: type=Central Body2, id=Yechnagoth
 msgid "Yechnagoth"
 msgstr "耶柯纳戈斯"
@@ -11329,13 +11336,13 @@ msgstr ""
 "股战士，指挥官们让部队集结在他们周围，他们使用弓和剑来猛烈进攻敌人，毫不留"
 "情。"
 
-#. [unit_type]: id=Central Body, race=monster
+#. [unit_type]: id=Central Body Base, race=monster
 msgid "Central Body"
 msgstr "中枢躯体"
 
-#. [unit_type]: id=Central Body, race=monster
-#. [unit_type]: id=Pulsing Spire, race=monster
 #. [unit_type]: id=Crawling Horror, race=monster
+#. [unit_type]: id=Pulsing Spire, race=monster
+#. [unit_type]: id=Central Body Base, race=monster
 msgid ""
 "This thing is impossible to describe, no one has seen anything like it "
 "before."
@@ -11344,6 +11351,20 @@ msgstr "这东西很难描述，因为从来没有人见过类似的东西。"
 #. [attack]: type=cold
 msgid "energy ray"
 msgstr "能量射线"
+
+#. [regenerate]: id=regenerates_yec
+msgid "alien regenerates"
+msgstr "异形再生"
+
+#. [regenerate]: id=regenerates_yec
+msgid "female^alien regenerates"
+msgstr "异形再生"
+
+#. [regenerate]: id=regenerates_yec
+msgid ""
+"The unit will heal itself 100 HP per turn. If it is poisoned, it will remove "
+"the poison instead of healing."
+msgstr "此单位每回合会恢复100点生命值。如果中毒，那么会疗毒而不是疗伤。"
 
 #. [unit_type]: id=Central Body2
 msgid "Weakened Central Body"
@@ -11495,8 +11516,8 @@ msgid "Naga Guardian"
 msgstr "娜迦守卫"
 
 #. [unit_type]: id=Naga Guardian, race=naga
-#. [unit_type]: id=Naga Warden, race=naga
 #. [unit_type]: id=Naga Sentinel, race=naga
+#. [unit_type]: id=Naga Warden, race=naga
 msgid ""
 "These heavy fighters are the elite guards of the naga. They are slower and "
 "more heavily armored than most naga and wield huge maces which they use to "
@@ -11727,8 +11748,8 @@ msgid ""
 "These elusive Pathfinders, however, are masters of weakening an enemy while "
 "at the same time provoking them to give chase — often into a trap."
 msgstr ""
-"在绝大多数情况下，后背向敌，迅速撤退是很危险的战术。然而，这些神出鬼没的探路"
-"者却是能够削弱敌军却还能引诱他们追击的大师——经常是将他们引入陷阱之中。"
+"在大多数情况下，后背向敌，迅速撤退是很危险的战术。然而，这些神出鬼没的探路者"
+"却是能够削弱敌军却还能引诱他们追击的大师——经常是将他们引入陷阱之中。"
 
 #. [unit_type]: id=Tauroch Protector, race=elf
 msgid "Tauroch Protector"
@@ -11958,11 +11979,11 @@ msgstr ""
 "就像船帆被风吹张起一样，一个灵魂被邪恶的魔法所困，这种监狱能够带来一个永不消"
 "逝的仆从，主人可以把他部署在任意地方。"
 
+#. [unit_type]: id=EGhost
+#. [unit_type]: id=ENightgaunt
 #. [unit_type]: id=EShadow
 #. [unit_type]: id=ESpectre
 #. [unit_type]: id=EWraith
-#. [unit_type]: id=ENightgaunt
-#. [unit_type]: id=EGhost
 msgid "SPECIAL_NOTE^ This unit is able to move through solid stone walls."
 msgstr "此单位可以穿越坚硬的石墙。"
 
@@ -12274,7 +12295,7 @@ msgstr "没有他的引导， 我们怎么逃离深邃的洞穴？我们会迷�
 
 #. [message]: speaker=Kaleh
 msgid "He was a brave warrior and a true ally. He will be missed."
-msgstr "我们会怀念他，一个勇敢的战士和真正的伙伴。 "
+msgstr "他是一位勇敢的战士和真正的伙伴。我们会怀念他的。"
 
 #. [message]: speaker=unit
 msgid "Farewell Nym, I go to the sea god. You elves must go on without me."

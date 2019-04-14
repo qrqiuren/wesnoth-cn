@@ -1,5 +1,5 @@
 # The Battle for Wesnoth - Simplified Chinese Translations
-# Copyright (C) 2005-2018 Wesnoth development team
+# Copyright (C) 2005-2019 Wesnoth development team
 # This file is distributed under the same license as the Battle for Wesnoth package.
 # Lim Choon Kiat <lim@singindustry.com>, 2005.
 # sylecn <sylecn@yahoo.com.cn>, 2009.
@@ -9,17 +9,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-1.14\n"
-"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-03-27 01:20 UTC\n"
-"PO-Revision-Date: 2018-05-18 10:03+0900\n"
-"Last-Translator: qrqiuren <qrqiuren@users.noreply.github.com>\n"
+"Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2019-01-27 09:23 UTC\n"
+"PO-Revision-Date: 2019-02-07 16:58+0800\n"
+"Last-Translator: CloudiDust <cloudidust@gmail.com>\n"
 "Language-Team: Wesnoth Simplified Chinese Team\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n>1;\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. [campaign]: id=Heir_To_The_Throne
 msgid "Heir to the Throne"
@@ -112,13 +112,13 @@ msgid "Konrad"
 msgstr "科纳德"
 
 #. [side]: type=Commander, id=Konrad
+#. [side]: type=Grand Knight, id=Kaylan
 #. [side]: type=Fighter, id=Konrad
 #. [side]: type=Elvish Champion, id=Galdrad
 #. [side]: type=Elvish Shyde, id=Chantal
-#. [side]: id=Geldar, type=Dwarvish Lord
-#. [side]
-#. [side]: type=Grand Knight, id=Kaylan
 #. [side]: id=Relgorn, type=Dwarvish Lord
+#. [side]
+#. [side]: id=Geldar, type=Dwarvish Lord
 #. [side]: type=Ancient Wose, id=Haralamdum
 #. [side]: type=Elvish Sylph, id=Bona-Melodia
 msgid "Rebels"
@@ -128,23 +128,23 @@ msgstr "反抗军"
 msgid "Urug-Telfar"
 msgstr "乌鲁戈-特尔法"
 
+#. [side]: type=Orcish Warrior, id=Mokolo Qimur
+#. [side]: type=Orcish Warrior, id=Usadar Q'kai
+#. [side]: type=Orcish Warrior, id=Dwaba-Kukai
+#. [side]: type=Orcish Warrior, id=Managa'Gwin
 #. [side]: type=Orcish Warlord, id=Kojun Herolm
 #. [side]: type=Orcish Warrior, id=Mokho Kimer
-#. [side]: type=Orcish Warlord, id=Urug-Telfar
-#. [side]: type=Orcish Warlord, id=Knafa-Tan
-#. [side]: type=Orcish Warlord, id=Maga-Knafa
+#. [side]: type=Orcish Warlord, id=Gaga-Breuk
 #. [side]: type=Orcish Warrior, id=Halgar Du'nar
 #. [side]: type=Orcish Warrior, id=Gorlak
 #. [side]: type=Orcish Slurbow, id=Knafa-Telfar
 #. [side]: type=Orcish Warlord, id=Urug-Tan
 #. [side]: type=Orcish Sovereign, id=Shuuga-Mool
-#. [side]: type=Orcish Warlord, id=Gaga-Breuk
 #. [side]: type=Orcish Warlord, id=Urag-Tifer
-#. [side]: type=Orcish Warrior, id=Usadar Q'kai
-#. [side]: type=Orcish Warrior, id=Dwaba-Kukai
-#. [side]: type=Orcish Warrior, id=Managa'Gwin
-#. [side]: type=Orcish Warrior, id=Mokolo Qimur
 #. [side]: type=Orcish Warlord, id=Kior-Dal
+#. [side]: type=Orcish Warlord, id=Urug-Telfar
+#. [side]: type=Orcish Warlord, id=Knafa-Tan
+#. [side]: type=Orcish Warlord, id=Maga-Knafa
 #. [side]: type=Goblin Rouser
 #. [side]: type=Orcish Warlord
 #. [side]: type=Troll Warrior
@@ -735,8 +735,8 @@ msgstr "珍珠湾"
 msgid "Defeat one enemy leader, and resist the other until turns run out"
 msgstr "击败一名敌方首领，并抵御另一名首领的攻击直到回合数耗尽"
 
-#. [objective]: condition=win
 #. [objectives]
+#. [objective]: condition=win
 msgid "Defeat all enemy leaders"
 msgstr "击败所有的敌方首领"
 
@@ -1115,9 +1115,7 @@ msgstr "击败玛夫·玛拉尔"
 msgid "Muff Malal"
 msgstr "玛夫·玛拉尔"
 
-#. [side]: type=Lich, id=Galga
-#. [side]: type=Lich, id=Na-alga
-#. [side]: type=Lich, id=Selda-Mana
+#. [side]: type=Dark Sorcerer, id=Muff Malal
 #. [side]: id=Haf-Mal, type=Lich
 #. [side]: id=Jarmal-Gorg, type=Lich
 #. [side]: type=Death Knight, id=Clarustus
@@ -1125,8 +1123,10 @@ msgstr "玛夫·玛拉尔"
 #. [side]: type=Lich, id=Aimucasur
 #. [side]: type=Death Knight, id=Secadius
 #. [side]: type=Death Knight, id=Dafeis
+#. [side]: type=Lich, id=Galga
+#. [side]: type=Lich, id=Na-alga
+#. [side]: type=Lich, id=Selda-Mana
 #. [side]: type=Ancient Lich, id=Muff Argulak
-#. [side]: type=Dark Sorcerer, id=Muff Malal
 msgid "Undead"
 msgstr "亡灵"
 
@@ -1297,8 +1297,8 @@ msgstr "这座神庙似乎是空的。"
 msgid "Looks like there is somebody hidden in the temple."
 msgstr "看上去似乎有什么人躲在神庙里。"
 
-#. [unit]: id=Moremirmu, type=Mage of Light
 #. [unit]: id=Moremirmu, type=White Mage
+#. [unit]: id=Moremirmu, type=Mage of Light
 msgid "Moremirmu"
 msgstr "莫密尔姆"
 
@@ -1392,13 +1392,13 @@ msgstr "埃仁撒伐"
 msgid "Agadla"
 msgstr "阿伽德拉"
 
-#. [side]: type=Orcish Warlord, id=Agadla
-#. [side]: type=Dark Sorcerer, id=Muff Jaanal
-#. [side]: id=Brugg, type=Troll Warrior
-#. [side]: id=Lionel, type=Death Knight
+#. [side]: type=Troll Warrior, id=Haaf-Garga
 #. [side]: type=Orcish Warlord, id=Urug-Telfar
 #. [side]: type=Death Knight, id=Unan-Ka'tall
-#. [side]: type=Troll Warrior, id=Haaf-Garga
+#. [side]: id=Brugg, type=Troll Warrior
+#. [side]: id=Lionel, type=Death Knight
+#. [side]: type=Orcish Warlord, id=Agadla
+#. [side]: type=Dark Sorcerer, id=Muff Jaanal
 msgid "Evil"
 msgstr "邪恶势力"
 
@@ -1515,6 +1515,11 @@ msgid ""
 "Excellent. Two hours past midnight meet us on the west bank of the river, "
 "across from Elensefar’s docks."
 msgstr "很好。凌晨两点，我们在河的西岸碰头，从埃仁撒伐的船坞渡河过去。"
+
+#. [label]
+#. The party and an ally have agreed to meet at the location identified by this label.
+msgid "Meeting point"
+msgstr "会面地点"
 
 #. [option]
 msgid "I want you to reinforce us once we break through their line."
@@ -1841,21 +1846,21 @@ msgstr "艾尔玛河口"
 msgid "Elbridge"
 msgstr "艾尔桥"
 
-#. [event]
 #. [side]: type=Princess, id=Li'sar
+#. [event]
 msgid "Li’sar"
 msgstr "莉莎"
 
-#. [side]: type=Princess, id=Li'sar
-#. [side]: type=General, id=Josephus
-#. [side]: type=Orcish Warlord, id=Dwar-Ni
-#. [side]: type=General, id=Malatus
 #. [side]: type=General, id=Robryn
+#. [side]: type=Princess, id=Li'sar
 #. [side]: type=General, id=Honber
 #. [side]: type=Orcish Warlord, id=Haliel-Maga
 #. [side]: type=General, id=Heford
 #. [side]: type=Cavalier, id=Sir Kalm
 #. [side]: type=Dark Queen, id=Asheviere
+#. [side]: type=General, id=Josephus
+#. [side]: type=Orcish Warlord, id=Dwar-Ni
+#. [side]: type=General, id=Malatus
 msgid "Asheviere"
 msgstr "艾什薇尔"
 
@@ -3288,6 +3293,7 @@ msgstr ""
 "你到底是什么家伙撒？是什么怪物的附肢？想要把俺骗下去好一口吃掉是不是，嗯？"
 
 #. [message]
+#. Comic relief
 msgid ""
 "I am a merman, dweller of the vast oceans! Do not ask me what I am doing in "
 "a cave. My lord can be somewhat eccentric. We are fighting at the side of "
@@ -3297,6 +3303,7 @@ msgstr ""
 "和你的同伴，那些洞穴住民并肩作战，击退兽人和巨魔。"
 
 #. [message]
+#. Comic relief
 msgid ""
 "I am a mermaid, dweller of the vast oceans! Do not ask me what I am doing in "
 "a cave. My lord can be somewhat eccentric. We are fighting at the side of "
@@ -3764,6 +3771,71 @@ msgstr "我想……我想如果我能集中一点注意力，我就能告诉你
 #. [floating_text]
 msgid "Concentrating"
 msgstr "正在集中注意力"
+
+#. [message]: id=Konrad
+msgid ""
+"That noise was made by no troll! What manner of beast makes its den in these "
+"forsaken caves?"
+msgstr "这可不是巨魔发出来的声音！什么野兽会在这废弃的洞穴里做窝？"
+
+#. [message]: race=merman
+#. Comic relief
+msgid ""
+"I wouldn't know, milord. Without a river running though it, such hot, dry "
+"places are anathema to my kind. Whatever monsters may abide in these depths, "
+"are known not to my kin."
+msgstr ""
+"我不知道，阁下。由于没有河流穿过，这样又热又干燥的敌方对我的族人而言是禁地。"
+"不论在这深处有何种怪物，我的族人们都毫无所知。"
+
+#. [message]: race=merman
+#. Comic relief
+msgid ""
+"Nor do I know, my most eccentric lord, what I am doing in a cave. No Mer has "
+"yet entered the caves under the mountain and lived to tell the tale. I would "
+"gladly die for you, milord, but I would that you didn't spend my life for "
+"nothing, looking for another dwarf to rescue when there is none."
+msgstr ""
+"古怪的阁下，我也不知道我在洞穴里干什么。至今都没有一位人鱼进入山下的洞穴之后"
+"还能活下来讲述这段经历的。我甘愿为您赴死，阁下，但我希望您不会浪费我的生命，"
+"在根本没有矮人可救时到处去找这个需要救援的矮人。"
+
+#. [message]: race=dwarf
+#. "sowl" is a rare word synonymous with "sully", meaning "contaminate".
+#. "toiled" means "difficult, requires effort".
+msgid ""
+"Lord Konrad, yon rumble was made by nae living creature. ’Tis the echoes o’ "
+"the very bedrock witherin’ and crumbling beneath us that we ’eard. Are ye "
+"nae feeling the heat redoubling? Is yer breath nae toiled for the ashes "
+"sowling the air? I beseech that we not tarry ’ere any more than we ha’ to, "
+"lest the forming abysses claim us."
+msgstr ""
+"科纳德阁下，这隆隆声不是活物造成的。俺们听到的是俺们脚下那石头干碎崩坏的响"
+"儿。您没觉得这儿越来越热了吗？没觉得这烟儿搞得呼吸越来越困难了吗？俺求求了，"
+"能快走就快走吧，要不俺们就得给正出现的深渊吞没喽。"
+
+#. [message]: type=Arch Mage,Great Mage,Silver Mage
+#. "din" means "loud noise". It refers to an ambient sound of collapsing cave walls.
+msgid ""
+"Prince Konrad, that din was made by no living thing. It was the sound of the "
+"very earth that’s boiling around us, of the fire and lava that are breaching "
+"this cave even now. We must tread with caution, for the very ground we stand "
+"on may turn against us."
+msgstr ""
+"科纳德王子，那声响不是由活物发出的。那是我们四周沸腾起来的泥土的声响，那是此"
+"刻正在侵入这个洞穴的火焰和岩浆的声响。我们正站立的土地都可能突然阻碍我们，我"
+"们必须小心前行。"
+
+#. [message]: id=Li'sar
+msgid ""
+"Konrad, that must have been the floor collapsing. I was warned of such "
+"dangers when I prepared to journey here. We mustn’t tarry here; let us fetch "
+"the Sceptre and return to the surface with haste, before the lava under our "
+"feet consumes us."
+msgstr ""
+"科纳德，那肯定是地板崩陷的声响。我在准备前来此处时，就被警告过会有这样的危"
+"险。我们绝对不能在此久留。在脚下的岩浆吞没我们之前，赶快拿到权杖并回到地表"
+"吧。"
 
 #. [message]: speaker=Delfador
 msgid ""
@@ -4756,11 +4828,11 @@ msgstr "莉莎公主，是不是需要我再一次提醒你，科纳德才是合
 
 #. [message]: speaker=Li'sar
 msgid ""
-"Whatever.... I still think we should make an effort to rescue him from the "
+"Whatever... I still think we should make an effort to rescue him from the "
 "unfortunate position he is in. If you help him, I’ll do my best to convince "
 "him that you are not his enemies but his friends..."
 msgstr ""
-"随便怎么样都好……我仍然认为应该努力把他从那个倒霉的位置上救回来。如果你们帮助"
+"随便怎么样都好……我还是觉得应该尽力把他从那个倒霉的地方救出来。如果你们帮助"
 "他，我会尽力劝他相信你们不是他的敌人，而是他的朋友。"
 
 #. [message]: speaker=Konrad
@@ -4866,8 +4938,8 @@ msgstr ""
 "去。"
 
 #. [message]: speaker=Li'sar
-msgid "That is so very encouraging...."
-msgstr "这还真是鼓舞人心的发言呢……"
+msgid "That is so very encouraging..."
+msgstr "这还真是鼓舞人心的发言……"
 
 #. [message]: speaker=Delfador
 msgid "I wonder what kind of monsters await us inside."
@@ -4909,9 +4981,9 @@ msgid "Your encampment will be dismantled after the first turn."
 msgstr "你的营地在第一回合后会被拆除。"
 
 #. [side]: type=Commander, id=Konrad
+#. [side]: type=Elvish Marshal, id=El'rien
 #. [side]: type=Elvish Lord, id=Uradredia
 #. [side]: type=Elvish Lady, id=Parandra
-#. [side]: type=Elvish Marshal, id=El'rien
 msgid "Allies"
 msgstr "同盟军"
 
@@ -5308,10 +5380,10 @@ msgstr "停下！"
 
 #. [message]: speaker=Bona-Melodia
 msgid ""
-"Milord Kalenz! My apologies. I mistook him for one of those foul lizardmen. "
+"Milord Kalenz! My apologies. I mistook you for one of those foul lizardmen. "
 "How came you to be traveling such paths?"
 msgstr ""
-"卡雷兹阁下！万分抱歉。我误以为他是那些邪恶蜥蜴人中的一员。您为何会在这样的道"
+"卡雷兹阁下！万分抱歉。我误以为您是那些邪恶蜥蜴人中的一员。您为何会在这样的道"
 "路上前行？"
 
 #. [message]: speaker=Kalenz
@@ -5355,8 +5427,8 @@ msgid ""
 msgstr "尤拉德雷利亚领主已经召集了林塔尼尔评议会。传闻说有比我们更紧急的需求。"
 
 #. [message]: speaker=Kalenz
-msgid "Then we must hurry. Stand fast, we will send reinforcements."
-msgstr "这么说我们必须赶快。坚守阵地，我们会派来援军的。"
+msgid "Then we must hurry. Stand fast! We will send reinforcements."
+msgstr "这么说我们必须赶快了。坚守阵地！我们会派来援军的。"
 
 #. [message]: speaker=Kalenz
 msgid ""
@@ -6092,18 +6164,6 @@ msgstr "急行军！更大的挑战挡在我们面前！在此耽搁，只会无
 msgid "Test of the Clan"
 msgstr "氏族的考验"
 
-#. [lua]: wesnoth.wml_actions.show_countdown
-msgid "Defeat one more enemy unit"
-msgid_plural "Defeat $units_to_slay enemy units"
-msgstr[0] "再击败一个敌方单位"
-msgstr[1] "再击败$units_to_slay|个敌方单位"
-
-#. [lua]: wesnoth.wml_actions.show_countdown
-msgid "Still $units_to_slay clan member to defeat!"
-msgid_plural "Still $units_to_slay clan members to defeat!"
-msgstr[0] "还需要打败$units_to_slay|个氏族成员！"
-msgstr[1] "还需要打败$units_to_slay|个氏族成员！"
-
 #. [objective]: condition=win
 msgid "Defeat enemy leaders"
 msgstr "击败所有敌方首领"
@@ -6673,7 +6733,7 @@ msgstr ""
 "小王子科纳德的尸骨从精灵那里运了回来，安葬在维尔帝的皇家陵寝中。每个星期，科"
 "纳德都会前往吊唁。"
 
-#. [variation]: id=Battle Princess, race=human
+#. [variation]: race=human
 #. [unit_type]: id=Battle Princess, race=human
 msgid "female^Battle Princess"
 msgstr "武士公主"
@@ -6682,19 +6742,19 @@ msgstr "武士公主"
 msgid ""
 "A noble by birth, the Princess has learnt swordplay with the greatest "
 "generals and battle tactics with the greatest sages, making her both a great "
-"combatant and a leader. Now battle-hardened and strong of will, she can now "
-"aid those around her in the art of combat."
+"combatant and a leader. Now battle-hardened and strong of will, she can aid "
+"those around her in the art of combat."
 msgstr ""
 "公主是天生的贵族。她师从于最伟大的将军们，学会了剑术，又从最伟大的贤者那里，"
 "学会了战术。这让她成为了一位伟大的战士和领袖。现在，她历经无数战斗，磨练出了"
 "坚强的意志，可以在作战中协助她身边的战友。"
 
-#. [variation]: id=Battle Princess, race=human
+#. [variation]: race=human
 msgid ""
 "A noble by birth, the Princess has learnt swordplay with the greatest "
 "generals, and battle tactics with the greatest sages, making her both a "
 "great combatant and a leader. Now battle-hardened and strong of will, she "
-"can now aid those around her in the art of combat."
+"can aid those around her in the art of combat."
 msgstr ""
 "公主是天生的贵族。她师从于最伟大的将军们，学会了剑术，又从最伟大的贤者那里，"
 "学会了战术。这让她成为了一位伟大的战士和领袖。现在，她历经无数战斗，磨练出了"
@@ -6708,7 +6768,7 @@ msgid "Commander"
 msgstr "指挥官"
 
 #. [variation]
-#. [unit_type]
+#. [unit_type]: id=Commander
 msgid ""
 "The rank of Commander is held by those who lead battle groups into combat. "
 "Possessing leadership skills, they give lower-level units in adjacent hexes "
@@ -6742,7 +6802,7 @@ msgid "raging blizzard"
 msgstr "狂怒暴雪"
 
 #. [variation]
-#. [unit_type]
+#. [unit_type]: id=Fighter
 msgid ""
 "Young and brash, Fighters attack with a sword, and are vulnerable to more "
 "seasoned enemies. However they have the potential to become great warriors "
@@ -6759,7 +6819,7 @@ msgid "Lord"
 msgstr "领主"
 
 #. [variation]
-#. [unit_type]
+#. [unit_type]: id=Lord
 msgid ""
 "The noble leaders of many troops, Lords are especially strong in melee "
 "combat, and also possess skill with the bow. Like Commanders, Lords possess "
@@ -6769,12 +6829,12 @@ msgstr ""
 "领主是大型军队的高贵领袖，他们在白刃战中尤为强力，同时也会使弓。像指挥官们一"
 "样，他们拥有领导技能，能够提升所有临近的较低等级单位的作战能力。"
 
-#. [variation]: id=Princess, race=human
+#. [variation]: race=human
 #. [unit_type]: id=Princess, race=human
 msgid "female^Princess"
 msgstr "公主"
 
-#. [variation]: id=Princess, race=human
+#. [variation]: race=human
 #. [unit_type]: id=Princess, race=human
 msgid ""
 "A noble by birth, the Princess has learnt swordplay with the greatest "

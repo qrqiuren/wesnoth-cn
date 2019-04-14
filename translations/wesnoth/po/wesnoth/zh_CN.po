@@ -1,5 +1,5 @@
 # The Battle for Wesnoth - Simplified Chinese Translations
-# Copyright (C) 2005-2018 Wesnoth development team
+# Copyright (C) 2005-2019 Wesnoth development team
 # This file is distributed under the same license as the Battle for Wesnoth package.
 # jan2xue <75jan@163.com>, 2005.
 # Huang Huan <unicon221@gmail.com>, 2005.
@@ -12,9 +12,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-1.14\n"
-"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-05-15 23:33-0400\n"
-"PO-Revision-Date: 2018-05-16 22:19+0800\n"
+"Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2019-01-27 12:23+0300\n"
+"PO-Revision-Date: 2019-02-04 16:58+0800\n"
 "Last-Translator: CloudiDust <cloudidust@gmail.com>\n"
 "Language-Team: Wesnoth Simplified Chinese Team\n"
 "Language: zh_CN\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n>1;\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. [multiplayer_side]: id=Custom
 msgid "Custom"
@@ -184,6 +184,25 @@ msgstr ""
 "显示在日志中。以及，废弃信息日志域控制着所显示的消息的数量。"
 
 #. [advanced_preference]: type=boolean
+msgid "Use experimental PRNG combat"
+msgstr "在战斗中使用试验性的PRNG"
+
+#. [advanced_preference]: type=boolean
+msgid ""
+"Enables more determinstic chance-to-hit calculations. This is an "
+"experimental feature designed to bring the observed hit/miss rate more in "
+"line with the displayed percentages.\n"
+"\n"
+"Note: this option only affects singleplayer, and the ‘Save random seed’ "
+"option must also be enabled when creating a game for this to work."
+msgstr ""
+"启用更具有确定性的命中率计算模式。这是一个试验性的特性，是为了让观察到的命中/"
+"射失率和显示的百分比更接近而设计的。\n"
+"\n"
+"注：此选项只影响单人游戏，且为了让此特性正常工作，在创建游戏时必须启用“保存随"
+"机种子”选项。"
+
+#. [advanced_preference]: type=boolean
 msgid "Joystick support"
 msgstr "手柄支持"
 
@@ -273,18 +292,6 @@ msgstr "带走金币："
 #. [lua]: generate_objectives
 msgid "Notes:"
 msgstr "备注："
-
-#. [language]
-msgid "Easy"
-msgstr "简单"
-
-#. [language]
-msgid "Medium"
-msgstr "普通"
-
-#. [language]
-msgid "Hard"
-msgstr "困难"
 
 #. [about]
 msgid "Programming"
@@ -1356,8 +1363,9 @@ msgid ""
 msgstr "$unit.name|无法使用风暴三叉戟！让能够使用它的人鱼拥有它吧。"
 
 #. [object]
-msgid "This trident allows a merman to shoot electric bolts at his enemies!"
-msgstr "这柄三叉戟能让人鱼向敌人发射闪电球！"
+msgid ""
+"This trident gives merfolk the power to throw lightning at their enemies."
+msgstr "这柄三叉戟赐予人鱼向敌人发射闪电的力量。"
 
 #. [effect]: type=fire
 msgid "storm trident"
@@ -1397,7 +1405,7 @@ msgstr ""
 "尔,艾希,欧拉丝,欧玛格,欧玛格拉,欧拉·卡,欧丽丹,欧丽达,欧什比,瓦琳,瓦尔尼拉,瓦"
 "尔尼特,瓦丽思科,瓦拉,瓦琳·卡,瓦什塔,瓦什丁"
 
-#. Generator for male drake names; see for <https://wiki.wesnoth.org/Context-free_grammar> for syntax
+#. Generator for male drake names; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 msgid ""
 "\n"
 "main={prefix}{suffix}|{prefix}’{suffix}|{prefix}{suffix} {short_name}\n"
@@ -1415,7 +1423,7 @@ msgstr ""
 "suffix=艾什|克雷|什|林|鲁汀|史纳|鲁什|卡|艾什|阿格|阿尔|艾什|斯拉|利|迪安|利"
 "托斯|鲁斯特|希特|尼克|拉斯|迪特|孔|玛德|提克|尼尔\n"
 
-#. Generator for female drake names; see for <https://wiki.wesnoth.org/Context-free_grammar> for syntax
+#. Generator for female drake names; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 msgid ""
 "\n"
 "main={prefix}{suffix}|{prefix}{suffix} {short_name}\n"
@@ -1521,7 +1529,7 @@ msgstr ""
 "德洛尔,崔斯德索尔,崔斯杜鲁斯,崔斯杜利尔,崔斯杜林,崔斯杜洛斯,崔斯杜洛尔,崔斯杜"
 "希尔,崔斯杜拉鲁斯,崔斯萨阿斯,崔斯赛尔,崔斯赛因,崔斯萨索尔,崔斯骚斯"
 
-#. Generator for male dwarf names; see for <https://wiki.wesnoth.org/Context-free_grammar> for syntax
+#. Generator for male dwarf names; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 msgid ""
 "\n"
 "main={long_name}\n"
@@ -1794,7 +1802,7 @@ msgstr ""
 "吉娅,薇欧莱朵,薇欧玟尔,薇瑟兰,薇瑟兰妮尔,薇薇尔,沃蒂娅,玟玟,沃尔斐克蕾雅,沃尔"
 "斐妮,沃尔菲芮丝,沃尔斐薇尔,沃薇妮"
 
-#. Generator for male elf names; see for <https://wiki.wesnoth.org/Context-free_grammar> for syntax
+#. Generator for male elf names; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 msgid ""
 "\n"
 "main={generated_prefix}{consonnant}{suffix}|{prefix}{centre}{suffix}\n"
@@ -1874,7 +1882,7 @@ msgstr ""
 "尔|菲尔|菲利斯|佛尔|佛拉斯|佛尔达|冯迪尔|佛芬|佛芬迪尔|瓦拉斯|瓦尔多|瓦杜伊"
 "尔|维拉斯|维尔多\n"
 
-#. Generator for female elf names; see for <https://wiki.wesnoth.org/Context-free_grammar> for syntax
+#. Generator for female elf names; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 msgid ""
 "\n"
 "main={generated_prefix_v}{centre_v}{suffix_v}|{generated_prefix_c}{centre_c}"
@@ -1968,7 +1976,7 @@ msgstr "葛拉,葛利拉,葛利,卡,卡什,柯什,柯罗,克拉,库,克匝,克�
 msgid "Kaasa,Kayya,Keyya,Kiira,Korra"
 msgstr "卡萨,卡娅,可娅,奇拉,可拉"
 
-#. Generator for male gryphon names; see for <https://wiki.wesnoth.org/Context-free_grammar> for syntax
+#. Generator for male gryphon names; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 msgid ""
 "\n"
 "main={prefix}{suffix}|{prefix}{centre}{suffix}\n"
@@ -1982,7 +1990,7 @@ msgstr ""
 "suffix=阿|依阿|伊|希|罗|乌\n"
 "centre=阿|阿什|伊兹|欧兹\n"
 
-#. Generator for female gryphon names; see for <https://wiki.wesnoth.org/Context-free_grammar> for syntax
+#. Generator for female gryphon names; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 msgid ""
 "\n"
 "main={prefix}{suffix}|{prefix}{centre}{suffix}\n"
@@ -2185,7 +2193,7 @@ msgstr ""
 "依瑟尔,依瑟洛娜,依希莉安,依希诺伊可,伊依索妲,依索温妮,依索诺依可,依苏娜,依苏"
 "薇妮法,依希珂拉,依希拉,依希莉安,依希莉卡,伊希莎"
 
-#. Generator for male Wesnothian human names; see for <https://wiki.wesnoth.org/Context-free_grammar> for syntax
+#. Generator for male Wesnothian human names; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 msgid ""
 "\n"
 "main={generated_prefix_c}{suffix_c}|{generated_prefix_v}{suffix_v}|{prefix_c}"
@@ -2252,7 +2260,7 @@ msgstr ""
 "温|伊雷林|伊林凡|伊里拉恩特|伊洛德利|伊鲁林|伊鲁米尔|伊朗宁|伊朗凡|伊里尔林|"
 "伊里米尔|伊里尼克|伊里尔辛\n"
 
-#. Generator for female Wesnothian human names; see for <https://wiki.wesnoth.org/Context-free_grammar> for syntax
+#. Generator for female Wesnothian human names; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 msgid ""
 "\n"
 "main={generated_prefix_c}{suffix_c}|{generated_prefix_v}{suffix_v}|{prefix_c}"
@@ -2476,7 +2484,7 @@ msgstr ""
 "亚西尔,亚赞,耶齐德,尤努斯,尤沙,尤斯里,优素福,扎法尔,扎菲尔,扎希德,查希尔,扎伊"
 "德,扎伊姆,扎伊纳,扎里夫,扎卡里亚,扎基,扎卡万,齐亚德,祖巴伊尔,祖海尔"
 
-#. Generator for male dunefolk human names
+#. Generator for male dunefolk human names; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 msgid ""
 "\n"
 "main={name_long}|{prefix}{suffix}|{name_mid}{connector}{name_mid}\n"
@@ -2573,7 +2581,7 @@ msgstr ""
 "亚西尔|亚赞|耶齐德|尤努斯|尤沙|尤斯里|优素福|扎法尔|扎菲尔|扎希德|查希尔|扎伊"
 "德|扎伊姆|扎伊纳|扎里夫|扎卡里亚|扎基|扎卡万|齐亚德|祖巴伊尔|祖海尔\n"
 
-#. Generator for female dunefolk human names
+#. Generator for female dunefolk human names; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 msgid ""
 "\n"
 "main={name_long}|{prefix}{suffix}|{name_mid}{connector}{surname}\n"
@@ -2708,7 +2716,7 @@ msgstr ""
 "斯,希拉兹,希,希拉特拉斯,希拉特雷兹,希兹,赞多尔,泽德里克斯,希尔雷克斯,希兹阿"
 "兹,希斯拉普,匝尔克兹,匝普德"
 
-#. Generator for saurian names; see for <https://wiki.wesnoth.org/Context-free_grammar> for syntax
+#. Generator for saurian names; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 msgid ""
 "\n"
 "main={prefix}{suffix}|{prefix}{centre}{suffix}\n"
@@ -2760,7 +2768,7 @@ msgstr ""
 "玛玛·瓦塔,玛丽娜,米兰达,米丽娅,莫尔菲,帕丝诺帕,佩娜吉拉,佩希诺伊,兰,希德娜,斯"
 "蒂拉·玛丽丝,希莉珂丝皮娅,提佳塔,瓦提,薇-艾娃,薇恩·艾墨尔,薇特-艾玛"
 
-#. Generator for merman names; see for <https://wiki.wesnoth.org/Context-free_grammar> for syntax
+#. Generator for merman names; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 msgid ""
 "\n"
 "main={prefix}{suffix}|{prefix}{centre}{suffix}\n"
@@ -2779,7 +2787,7 @@ msgstr ""
 "辛尼劳|希修提尔|塔伽洛阿|塔纳阿|坦甲洛阿|坦加|陶玛斯|提奇提奇|提尼|提尼劳|提"
 "尼洛|托尼瓦|托尼温|维兹|伏德尼克|伏鲁卡萨\n"
 
-#. Generator for mermaid names; see for <https://wiki.wesnoth.org/Context-free_grammar> for syntax
+#. Generator for mermaid names; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 msgid ""
 "\n"
 "main={prefix}{suffix}|{prefix}{centre}{suffix}\n"
@@ -2827,7 +2835,7 @@ msgstr ""
 "拉,斯内莉娅,斯拉可,斯拉尔,斯扎可,崔克丝哲德,薇莱拉,薇萨莱,薇拉妮莎,夏布拉可,"
 "夏玛莉娅,希娜,希娜希娅,希纳玛丝,希欧普科内,扎尔丝帕,扎尔可,兹普丝可,兹丝可"
 
-#. Generator for male naga names; see for <https://wiki.wesnoth.org/Context-free_grammar> for syntax
+#. Generator for male naga names; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 msgid ""
 "\n"
 "main={prefix}{suffix}\n"
@@ -2847,7 +2855,7 @@ msgstr ""
 "斯|希布拉克|希玛雷尔|希纳斯|希纳莫斯|希欧普空|扎尔斯普|兹雷克|兹普斯克|兹斯"
 "克\n"
 
-#. Generator for female naga names; see for <https://wiki.wesnoth.org/Context-free_grammar> for syntax
+#. Generator for female naga names; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 msgid ""
 "\n"
 "main={prefix}{suffix}\n"
@@ -2882,7 +2890,7 @@ msgstr ""
 "卡马克,马克隆,马卡克,马库克,莫克内克,纳伽克,欧尔克,欧尔克特,雷克纳克,塔寇拉"
 "克,特拉布克,特拉空,乌卡,乌克阿克"
 
-#. Generator for ogre names; see for <https://wiki.wesnoth.org/Context-free_grammar> for syntax
+#. Generator for ogre names; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 msgid ""
 "\n"
 "main={prefix}{suffix}\n"
@@ -3034,7 +3042,7 @@ msgstr ""
 "图,塔格,图鲁格,图鲁夫,苏尔,托格,托尔格,托克,苏克,塔,塔克·拉,尤格,阿,乌格,乌"
 "拉,乌克,乏克,佐格,组格"
 
-#. Generator for troll names; see for <https://wiki.wesnoth.org/Context-free_grammar> for syntax
+#. Generator for troll names; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 msgid ""
 "\n"
 "main={short_name}|{short_name}|{short_name}|{short_name} {short_name}\n"
@@ -3079,7 +3087,7 @@ msgstr ""
 "恩德姆本,特姆坦农格特姆,通德恩孔腾孔,特鲁姆巴杜姆,塔姆腾塔塔格朗姆,塔姆腾朗格"
 "塔姆,塔姆塔姆格姆托姆托姆,沃壤玛尔丁,沃达多尔普"
 
-#. Generator for wose names; see for <https://wiki.wesnoth.org/Context-free_grammar> for syntax
+#. Generator for wose names; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 msgid ""
 "\n"
 "main={prefix}{centre}{centre}{suffix}|{prefix}{centre}{centre}{centre}"
@@ -3115,7 +3123,7 @@ msgstr ""
 "尔,金,纳姆,尼斯,纽,欧尔,欧德,欧夫,欧乌尔,欧克斯,洛克,卢克,萨尔,萨姆,希德,赛"
 "尔,森,西尔,塔尔,沃特,维特,约克"
 
-#. Generator for the base names of features assigned by the random map generator; see for <https://wiki.wesnoth.org/Context-free_grammar> for syntax
+#. Generator for the base names of features assigned by the random map generator; see <https://wiki.wesnoth.org/Context-free_grammar> for syntax
 msgid ""
 "\n"
 "main={prefix}{middle}{suffix}\n"
@@ -3146,7 +3154,7 @@ msgstr "可选目标："
 
 #. [note]: description=<b>
 msgid "This is the last scenario."
-msgstr "这是最后一个场景。"
+msgstr "这是最后一幕场景。"
 
 #. [note]: description=<b>
 msgid "No turn limit"
@@ -3362,8 +3370,8 @@ msgid "Teal"
 msgstr "青"
 
 #. [color_range]: id=gold
-msgid "Gold"
-msgstr "金币"
+msgid "color^Gold"
+msgstr "金"
 
 #. [color_range]: id=reef
 msgid "Reef"
@@ -3452,6 +3460,18 @@ msgstr "韦诺（默认）"
 #. [core]: id=default
 msgid "The standard Wesnoth core."
 msgstr "标准韦诺核心。"
+
+#. [language]
+msgid "Easy"
+msgstr "简单"
+
+#. [language]
+msgid "Medium"
+msgstr "普通"
+
+#. [language]
+msgid "Hard"
+msgstr "困难"
 
 #. [language]
 msgid "Nightmare"
@@ -3783,10 +3803,6 @@ msgstr ""
 msgid "Official Wesnoth Server"
 msgstr "官方韦诺服务器"
 
-#. [server]
-msgid "Alternate Wesnoth Server"
-msgstr "替代用韦诺服务器"
-
 #. [label]: id=no_options_notice
 msgid ""
 "There are no custom options available for the selected era, game, or "
@@ -3881,10 +3897,6 @@ msgstr "不可治疗"
 msgid "unhealable"
 msgstr "不可治疗"
 
-#. [lua]: wesnoth.wml_actions.message
-msgid "input"
-msgstr "输入"
-
 #. [lua]: generate_objectives
 msgid "Victory:"
 msgstr "胜利："
@@ -3892,12 +3904,6 @@ msgstr "胜利："
 #. [lua]: generate_objectives
 msgid "Defeat:"
 msgstr "失败："
-
-#. [lua]: generate_objectives
-msgid "(this turn left)"
-msgid_plural "(%d turns left)"
-msgstr[0] "（仅剩本回合）"
-msgstr[1] "（剩余%d回合）"
 
 #. [lua]: generate_objectives
 msgid "%d%% of gold carried over to the next scenario."
@@ -4201,7 +4207,7 @@ msgid ""
 "the <b>Help</b> screen carefully. Details become important as scenarios get "
 "harder!"
 msgstr ""
-"玩过几个场景后，请认真阅读<b>帮助</b>屏幕中的<b>游戏玩法</b>部分。随着场景变"
+"玩过几幕场景后，请认真阅读<b>帮助</b>屏幕中的<b>游戏玩法</b>部分。随着场景变"
 "得越来越难，细节也就变得越来越重要了！"
 
 #. [tip]
@@ -4210,7 +4216,7 @@ msgid ""
 "level units that are about to level up than with those same units at a "
 "higher level."
 msgstr ""
-"通常来说，在战役中最好把即将升级的低等级单位留到下一个场景开始时使用，而不是"
+"通常来说，在战役中最好把即将升级的低等级单位留到下一幕场景开始时使用，而不是"
 "在当前场景中先升级后，再到下一场景开始时使用。"
 
 #. [tip]
@@ -4303,7 +4309,7 @@ msgid ""
 "the <b>Actions</b> menu. By recalling the same units over and over, you can "
 "build up a powerful and experienced army."
 msgstr ""
-"你可以通过<b>行动</b>菜单中的<b>召回</b>来召回上一个场景中的单位。通过不断召"
+"你可以通过<b>行动</b>菜单中的<b>召回</b>来召回上一幕场景中的单位。通过不断召"
 "回相同的单位，你可以建立一支强大而经验丰富的军队。"
 
 #. [tip]
@@ -4436,9 +4442,9 @@ msgid ""
 "remaining. You will usually earn more gold this way than through capturing "
 "villages and waiting for the turns to run out."
 msgstr ""
-"在绝大多数战役中，提前完成任务目标会获得金币奖励，其数目取决于地图上村庄的数"
-"量和剩余的回合数。和占领剩下的村庄并等待回合数耗尽相比，提前完成目标通常能让"
-"你获得更多金币。"
+"在大多数战役中，提前完成任务目标会获得金币奖励，其数目取决于地图上村庄的数量"
+"和剩余的回合数。和占领剩下的村庄并等待回合数耗尽相比，提前完成目标通常能让你"
+"获得更多金币。"
 
 #. [tip]
 msgid ""
@@ -4621,14 +4627,6 @@ msgstr ""
 
 #. [tip]
 msgid ""
-"In many campaign scenarios, you may issue simple instructions for your "
-"computer-controlled allies using the right-click context menu."
-msgstr ""
-"在许多战役场景中，你都可以通过右键上下文菜单向由计算机控制的盟友下达简单的指"
-"令。"
-
-#. [tip]
-msgid ""
 "The <i>Slow</i> ability is extremely powerful because it has such wide-"
 "ranging effects. Enemy undead get half the normal benefit from their "
 "<i>Drain</i> ability, the damage bonus from <i>Charge</i> or <i>Backstab</i> "
@@ -4740,6 +4738,23 @@ msgid "<i>― Queen Asheviere, 503YW</i>"
 msgstr "<b>——艾什薇尔女王，韦元503年</b>"
 
 #. [tip]
+msgid "Using lower-level units can be very cost-effective."
+msgstr "使用低等级单位的效费比很高。"
+
+#. [tip]
+msgid ""
+"Some higher-level units have inimitable abilities such as <i>Leadership</i>, "
+"<i>Cures</i>, or <i>Nightstalk</i>. Obtaining those units early can make a "
+"big difference in a campaign."
+msgstr ""
+"有些高等级单位拥有无可企及的能力，例如<b>领导</b>，<i>疗毒</I>，或者<i>夜遁</"
+"I>。在战役早期就获得这些单位，可以给战局带来极大变化。"
+
+#. [tip]
+msgid "<i>― Sir Gerrick of Westin, 607YW</i>"
+msgstr "<b>——韦斯廷的格里克爵士，韦元607年</b>"
+
+#. [tip]
 msgid ""
 "<i>Feral</i> units, such as Bats and wild animals, will avoid villages. Even "
 "if they occupy a village hex, they do not gain any defensive benefits from "
@@ -4748,11 +4763,11 @@ msgstr ""
 "<b>野生</b>单位——例如蝙蝠和野生动物——会避开村庄。就算它们占据了村庄格子，也不"
 "能得到村庄带来的任何防御加成，虽然说它们仍然会得到治疗。"
 
+msgid "an advancement choice"
+msgstr "升级选择"
+
 msgid "An invalid attacker weapon got selected."
 msgstr "选中了无效的进攻武器。"
-
-msgid "An invalid defender weapon got selected."
-msgstr "选中了无效的防御武器。"
 
 msgid "You do not have a leader to recall with."
 msgstr "你没有首领，不能进行召回。"
@@ -5426,13 +5441,13 @@ msgstr "缺少附加组件：$id"
 msgid "Unknown era"
 msgstr "未知时代"
 
-msgid "S"
+msgid "scenario_abbreviation^S"
 msgstr "S"
 
 msgid "Remote scenario"
 msgstr "远程场景"
 
-msgid "C"
+msgid "campaign_abbreviation^C"
 msgstr "C"
 
 msgid "Unknown scenario"
@@ -5591,16 +5606,16 @@ msgid_plural ""
 "You will start the next scenario with $gold on top of the defined minimum "
 "starting gold."
 msgstr[0] ""
-"除了指定的最小起始金币数以外，你将以$gold|枚额外金币来开始下一个场景。"
+"除了指定的最小起始金币数以外，你将以$gold|枚额外金币来开始下一幕场景。"
 msgstr[1] ""
-"除了指定的最小起始金币数以外，你将以$gold|枚额外金币来开始下一个场景。"
+"除了指定的最小起始金币数以外，你将以$gold|枚额外金币来开始下一幕场景。"
 
 msgid ""
 "You will start the next scenario with the defined minimum starting gold."
 msgid_plural ""
 "You will start the next scenario with the defined minimum starting gold."
-msgstr[0] "你将以指定的最小起始金币数来开始下一个场景。"
-msgstr[1] "你将以指定的最小起始金币数来开始下一个场景。"
+msgstr[0] "你将以指定的最小起始金币数来开始下一幕场景。"
+msgstr[1] "你将以指定的最小起始金币数来开始下一幕场景。"
 
 msgid ""
 "You will start the next scenario with $gold or its defined minimum starting "
@@ -5609,9 +5624,9 @@ msgid_plural ""
 "You will start the next scenario with $gold or its defined minimum starting "
 "gold, whichever is higher."
 msgstr[0] ""
-"你将以$gold|枚金币或者场景指定的最小起始金币数中较高者来开始下一个场景。"
+"你将以$gold|枚金币或者场景指定的最小起始金币数中较高者来开始下一幕场景。"
 msgstr[1] ""
-"你将以$gold|枚金币或者场景指定的最小起始金币数中较高者来开始下一个场景。"
+"你将以$gold|枚金币或者场景指定的最小起始金币数中较高者来开始下一幕场景。"
 
 msgid "Scenario Report"
 msgstr "场景报告"
@@ -5846,22 +5861,46 @@ msgstr "能力："
 msgid "Ability Upgrades: "
 msgstr "能力升级："
 
-msgid "HP: "
+#. TRANSLATORS: This string is used in the help page of a single unit.  If the translation
+#. uses spaces, use non-breaking spaces as appropriate for the target language to prevent
+#. unpleasant line breaks (issue #3256).
+msgid "HP:"
 msgstr "生命："
 
-msgid "Moves: "
+#. TRANSLATORS: This string is used in the help page of a single unit.  If the translation
+#. uses spaces, use non-breaking spaces as appropriate for the target language to prevent
+#. unpleasant line breaks (issue #3256).
+msgid "Moves:"
 msgstr "移动："
 
-msgid "Vision: "
+#. TRANSLATORS: This string is used in the help page of a single unit.  If the translation
+#. uses spaces, use non-breaking spaces as appropriate for the target language to prevent
+#. unpleasant line breaks (issue #3256).
+msgid "Vision:"
 msgstr "视野："
 
-msgid "Jamming: "
+#. TRANSLATORS: This string is used in the help page of a single unit.  If the translation
+#. uses spaces, use non-breaking spaces as appropriate for the target language to prevent
+#. unpleasant line breaks (issue #3256).
+msgid "Jamming:"
 msgstr "干扰："
 
-msgid "Cost: "
-msgstr "花费："
+#. TRANSLATORS: This string is used in the help page of a single unit.  If the translation
+#. uses spaces, use non-breaking spaces as appropriate for the target language to prevent
+#. unpleasant line breaks (issue #3256).
+msgid "Cost:"
+msgstr "费用："
 
-msgid "Required XP: "
+#. TRANSLATORS: This string is used in the help page of a single unit.  If the translation
+#. uses spaces, use non-breaking spaces as appropriate for the target language to prevent
+#. unpleasant line breaks (issue #3256).
+msgid "Alignment:"
+msgstr "立场："
+
+#. TRANSLATORS: This string is used in the help page of a single unit.  It uses
+#. non-breaking spaces to prevent unpleasant line breaks (issue #3256).  In the
+#. translation use non-breaking spaces as appropriate for the target language.
+msgid "Required XP:"
 msgstr "所需经验："
 
 msgid "unit help^Attacks"
@@ -6044,10 +6083,13 @@ msgid ""
 "(You must have veteran survivors from a previous scenario)"
 msgstr ""
 "没有可供召回的部队\n"
-"（你在上一个场景中必须有生还的老兵）"
+"（你在上一幕场景中必须有生还的老兵）"
 
 msgid "You currently can't recall at the highlighted location"
 msgstr "你目前不能在高亮位置进行召回"
+
+msgid "No unit recalled"
+msgstr "未召回任何单位"
 
 msgid "You must have at least 1 gold piece to recall a unit"
 msgid_plural "You must have at least $cost gold pieces to recall this unit"
@@ -6149,10 +6191,10 @@ msgid "<id>"
 msgstr "<ID>"
 
 msgid "Advance to the next scenario, or scenario identified by 'id'"
-msgstr "进入下一个场景，或ID为“ID”的场景"
+msgstr "进入下一幕场景，或ID为“ID”的场景"
 
 msgid "Choose next scenario"
-msgstr "选择下一个场景"
+msgstr "选择下一幕场景"
 
 msgid ""
 "Change turn number (and time of day), or increase by one if no number is "
@@ -6204,13 +6246,13 @@ msgid "<var>=<value>"
 msgstr "<变量>=<值>"
 
 msgid "Set a scenario variable."
-msgstr "设置一个场景变量。"
+msgstr "设置一幕场景变量。"
 
 msgid "<var>"
 msgstr "<变量>"
 
 msgid "Show a scenario variable."
-msgstr "显示一个场景变量。"
+msgstr "显示一幕场景变量。"
 
 msgid "Modify a unit variable. (Only top level keys are supported.)"
 msgstr "修改一个单位变量。（只支持顶层的键值。）"
@@ -6259,6 +6301,15 @@ msgstr "无法托管无效阵营：“$side|”。"
 
 msgid "Can't droid networked side: '$side'."
 msgstr "无法托管联机阵营：“$side|”。"
+
+msgid "Side '$side' is already droided."
+msgstr "阵营：“$side|”之前已被托管了。"
+
+msgid "Side '$side' controller is now controlled by: AI."
+msgstr "阵营：“$side|”现在由AI控制。"
+
+msgid "Side '$side' controller is now controlled by: human."
+msgstr "阵营：“$side|”现在由人类控制。"
 
 msgid "Can't droid a local ai side: '$side'."
 msgstr "无法托管本地AI阵营：“$side|”。"
@@ -6479,11 +6530,11 @@ msgstr "类型："
 msgid "Level: "
 msgstr "等级："
 
+msgid "Advancements:"
+msgstr "可升级为："
+
 msgid "No advancement"
 msgstr "不能升级"
-
-msgid "Advances to:"
-msgstr "升级为："
 
 msgid "Trait: "
 msgstr "特质："
@@ -6645,6 +6696,9 @@ msgid ""
 "will end."
 msgstr "当到达第二个数字所表示的回合数时，游戏将结束。"
 
+msgid "Gold"
+msgstr "金币"
+
 msgid ""
 "The amount of gold currently available to recruit and maintain your army."
 msgstr "当前可用于征募与维护你的军队的金币数量。"
@@ -6689,6 +6743,9 @@ msgstr "观察者："
 
 msgid "Clock"
 msgstr "时钟"
+
+msgid "Battery"
+msgstr "炮位"
 
 msgid "Countdown until your turn automatically ends."
 msgstr "直到你的回合自动结束的倒计时"
@@ -6766,6 +6823,9 @@ msgstr "保存游戏"
 
 msgid "Game state is corrupted"
 msgstr "游戏状态已损毁"
+
+msgid "input"
+msgstr "输入"
 
 msgid "Unexpected characters at line start"
 msgstr "行首部出现非预期的字符"
@@ -6996,9 +7056,6 @@ msgstr "中立"
 
 msgid "female^liminal"
 msgstr "边缘"
-
-msgid "Unit with negative HP found"
-msgstr "发现生命值为负的单位"
 
 msgid "$attack_list|: $effect_description"
 msgstr "$attack_list|：$effect_description"

@@ -1,5 +1,5 @@
 # The Battle for Wesnoth - Simplified Chinese Translations
-# Copyright (C) 2005-2018 Wesnoth development team
+# Copyright (C) 2005-2019 Wesnoth development team
 # This file is distributed under the same license as the Battle for Wesnoth package.
 # jan2xue <75jan@163.com>, 2005.
 # Huang huan <unicon221@gmail.com>, 2005.
@@ -10,17 +10,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-1.14\n"
-"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-03-31 23:36 UTC\n"
-"PO-Revision-Date: 2018-05-18 10:19+0900\n"
-"Last-Translator: qrqiuren <qrqiuren@users.noreply.github.com>\n"
+"Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2018-09-16 07:03 UTC\n"
+"PO-Revision-Date: 2019-02-07 17:03+0800\n"
+"Last-Translator: CloudiDust <cloudidust@gmail.com>\n"
 "Language-Team: Wesnoth Simplified Chinese Team\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n>1;\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. [generic_multiplayer]: id=user_map
 msgid "User Map"
@@ -104,6 +104,10 @@ msgstr ""
 #. [lua]: f
 msgid "Grand total: <b>%d</b>"
 msgstr "总得分：<b>%d</b>"
+
+#. [lua]: f
+msgid "Sides %s and %d are tied."
+msgstr "阵营%s和%d势均力敌。"
 
 #. [lua]: f
 msgid "<span foreground='%s'>Side %d</span> has the advantage."
@@ -580,7 +584,7 @@ msgid ""
 "allegiance with the Dragon, were slaughtered. Knowing that these Drakes were "
 "innocent, Rah Ihn Mar came to Ruaskkolin Lake to hunt down and slay "
 "Terowydlithrol, who had been seen entering the region but a day ago. Burning "
-"for vengeance, Rah Ihn Mar began the hunt....."
+"for vengeance, Rah Ihn Mar began the hunt..."
 msgstr ""
 "拉·伊亨·玛，来自“燃烧丘陵”的斗士，来到了拉斯科库林湖区域以追杀被精灵们称为“龙"
 "之克星”的精灵英雄特洛伊德利斯洛尔。据说特洛伊德利斯洛尔杀死了一条威胁精灵村庄"
@@ -680,9 +684,9 @@ msgstr "塔拉埃尔•林多克"
 #. [unit]
 msgid ""
 "General Talael Ryndoc came to this place to fight a duel with the Grand "
-"Marshal Aethec Corryn, but the two men never found one another. "
+"Marshal Aethec Corryn, but the two men never found one another."
 msgstr ""
-"塔拉埃尔•林多克将军来到此地与大元帅艾西克•科林决斗，但是这两人再也没有找到过"
+"塔拉埃尔•林多克将军来到此地与艾西克•科林大元帅决斗，但是这两人再也没有找到过"
 "对方。"
 
 #. [side]
@@ -696,9 +700,9 @@ msgid ""
 "inform the court that you were too much of a coward to attend our duel! Your "
 "disgrace shall be more agonizing than the death I’d have given you!”\n"
 "\n"
-"Perhaps he should not have shouted quite so loudly.... "
+"Perhaps he should not have shouted quite so loudly..."
 msgstr ""
-"大元帅艾西克•科林的遗言是：“塔拉埃尔•林多克！我正翻遍每一寸土地找你！我应该回"
+"艾西克•科林大元帅的遗言是：“塔拉埃尔•林多克！我正翻遍每一寸土地找你！我应该回"
 "到哈德里克大厅，告诉宫廷你是个不敢参加决斗的懦夫！那样你的耻辱比之被我在此杀"
 "死，会更让你痛苦万分！”\n"
 "\n"
@@ -813,7 +817,7 @@ msgstr ""
 "“黑暗预想”是生存场景，供自残或双人组队娱乐，对抗随机生成的AI单位。获胜的方法"
 "是挺过对手的所有进攻波次。在游戏过程中，地形会随着随机的天气效果而变化。\n"
 "\n"
-"注意：你需要使用地图设置，以便让这个场景能够正确运行。"
+"注意：你需要使用地图设置，以便让这幕场景能够正确运行。"
 
 #. [side]
 msgid "teamname^Revolt"
@@ -1340,8 +1344,8 @@ msgid "2p — Thousand Stings Garrison"
 msgstr "2p — 千刺卫戍军"
 
 #. [multiplayer]: id=multiplayer_thousand_stings_garrison
-msgid "A strange place. Designed by Doc Paterson"
-msgstr "一个奇怪的地方。此地图由多克·帕特森设计"
+msgid "A strange place. Designed by Doc Paterson."
+msgstr "一个奇怪的地方。由多克·帕特森设计。"
 
 #. [side]
 msgid "Statue"
@@ -1389,19 +1393,19 @@ msgstr "这个极其重要的运输通道在韦诺的诸多最伟大的战斗中
 msgid "3p — Alirok Marsh"
 msgstr "3p — 埃尔洛克沼泽"
 
+#. [multiplayer]: id=multiplayer_Alirok_Marsh
+#. [multiplayer]: id=multiplayer_Island_of_the_Horatii
+#. [multiplayer]: id=multiplayer_3p_Morituri
+#. [multiplayer]: id=multiplayer_Blue_Water_Province
+#. [multiplayer]: id=multiplayer_Castle_Hopping_Isle
+#. [multiplayer]: id=multiplayer_Clash
+#. [multiplayer]: id=multiplayer_4p_Hamlets
+#. [multiplayer]: id=multiplayer_4p_Morituri
+#. [multiplayer]: id=multiplayer_Ruins_of_Terra-Dwelve
+#. [multiplayer]: id=multiplayer_4p_Underworld
 #. [multiplayer]: id=multiplayer_8p_Mokena_Prairie
 #. [multiplayer]: id=multiplayer_8p_Morituri
-#. [multiplayer]: id=multiplayer_Blue_Water_Province
-#. [multiplayer]: id=multiplayer_3p_Morituri
-#. [multiplayer]: id=multiplayer_Clash
-#. [multiplayer]: id=multiplayer_Castle_Hopping_Isle
-#. [multiplayer]: id=multiplayer_Island_of_the_Horatii
-#. [multiplayer]: id=multiplayer_Ruins_of_Terra-Dwelve
-#. [multiplayer]: id=multiplayer_4p_Morituri
 #. [multiplayer]: id=multiplayer_Loris_River
-#. [multiplayer]: id=multiplayer_Alirok_Marsh
-#. [multiplayer]: id=multiplayer_4p_Hamlets
-#. [multiplayer]: id=multiplayer_4p_Underworld
 msgid " Recommended setting of 2 gold per village."
 msgstr " 建议设置每座村庄供给2枚金币。"
 
@@ -1524,12 +1528,12 @@ msgstr "4p — 伊萨尔交叉口"
 msgid ""
 "A very small 2 vs. 2 map. Close quarters fighting means the successful "
 "rotation of units and planning of moves is important. Teams set for players "
-"1+4 vs. 2+3 (northeast vs. southwest). Designed for 75 starting gold, 20 "
-"villages."
+"1 &amp; 4 vs. 2 &amp; 3 (northeast vs. southwest). Designed for 75 starting "
+"gold, 20 villages."
 msgstr ""
 "一幅非常小的2v2地图。近距离对战意味着成功地轮换单位并计划好行动将非常重要。团"
-"队设定为玩家1+4对阵玩家2+3（东北对阵西南）。为75枚金币的起始资金而设计，图上"
-"有20个村庄。"
+"队设定为玩家1和4对阵玩家2和3（东北对阵西南）。为75枚金币的起始资金而设计，图"
+"上有20座村庄。"
 
 #. [side]
 msgid "teamname^Southwest"
@@ -1543,8 +1547,8 @@ msgstr "东北"
 msgid "4p — King of the Hill"
 msgstr "4p — 山丘之王"
 
-#. [multiplayer]: id=multiplayer_Siege_Castles
 #. [multiplayer]: id=multiplayer_King_of_the_Hill
+#. [multiplayer]: id=multiplayer_Siege_Castles
 msgid " Recommended setting of 2 gold per village and 150 starting gold."
 msgstr " 建议设置每座村庄供给2枚金币，并有150枚金币的起始资金。"
 
@@ -1571,10 +1575,10 @@ msgstr "4p — 洛里斯河"
 #. [multiplayer]: id=multiplayer_Loris_River
 msgid ""
 "2 vs. 2 map centered around a river with keeps in opposite corners. Designed "
-"for players 1+4 vs. 2+3. There are 28 villages."
+"for players 1 &amp; 4 vs. 2 &amp; 3. There are 28 villages."
 msgstr ""
-"2v2地图，以河流为中心，双方的城堡处于相对的角落。为玩家1和4对阵玩家2和3而设"
-"计。图上有28座村庄。"
+"2v2地图，以河流为中心，而城堡处于相对的角落。为玩家1和4对阵玩家2和3而设计。图"
+"上有28座村庄。"
 
 #. [multiplayer]: id=multiplayer_4p_Morituri
 msgid "4p — Morituri"
@@ -1595,7 +1599,8 @@ msgstr " 建议设置每座村庄供给2枚金币，图上有28座村庄。"
 #. [multiplayer]: id=multiplayer_Paths_of_Daggers
 msgid ""
 "A 2 vs. 2 map with 5 separate paths of engagement. Balanced to be played "
-"east vs. west (1+4 vs. 2+3), but works well with any teams or FFA."
+"east vs. west (1 &amp; 4 vs. 2 &amp; 3), but works well with any teams or "
+"FFA."
 msgstr ""
 "一幅2v2地图，有5条独立的交战路线。从平衡考虑建议玩家最好组队为东部对阵西部"
 "（即玩家1和4对阵玩家2和3），但是其他组队方式或自由对战（FFA）也没有问题。"

@@ -1,5 +1,5 @@
 # The Battle for Wesnoth - Simplified Chinese Translations
-# Copyright (C) 2005-2018 Wesnoth development team
+# Copyright (C) 2005-2019 Wesnoth development team
 # This file is distributed under the same license as the Battle for Wesnoth package.
 # jan2xue <75jan@163.com>, 2005.
 # Huang Huan <unicon221@gmail.com>, 2005.
@@ -13,17 +13,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-1.14\n"
-"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-05-06 08:31 UTC\n"
-"PO-Revision-Date: 2018-05-20 10:38+0900\n"
-"Last-Translator: qrqiuren <qrqiuren@users.noreply.github.com>\n"
+"Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2019-01-27 09:23 UTC\n"
+"PO-Revision-Date: 2019-02-07 18:03+0800\n"
+"Last-Translator: CloudiDust <cloudidust@gmail.com>\n"
 "Language-Team: Wesnoth Simplified Chinese Team\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n>1;\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. [scenario]: id=22_The_Rise_of_Wesnoth
 #. [campaign]: id=The_Rise_of_Wesnoth
@@ -70,8 +70,8 @@ msgstr ""
 "\n"
 
 #. [campaign]: id=The_Rise_of_Wesnoth
-msgid "(Expert level, 24 scenarios.)"
-msgstr "（专家级别，24幕场景。）"
+msgid "(Hard level, 24 scenarios.)"
+msgstr "（困难级别，24幕场景。）"
 
 #. [about]
 msgid "Campaign Design"
@@ -190,8 +190,8 @@ msgid "For this is the story of Haldric the First and the Rise of Wesnoth..."
 msgstr "这就是哈德里克一世和韦诺崛起的故事……"
 
 #. [side]: type=Noble Commander, id=Prince Haldric
-#. [side]: id=Prince Haldric, type=Noble Commander
 #. [side]: type=Noble Youth, type=Noble Fighter, id=Prince Haldric
+#. [side]: id=Prince Haldric, type=Noble Commander
 #. [side]: type=Noble Fighter, id=Prince Haldric
 msgid "Prince Haldric"
 msgstr "哈德里克王子"
@@ -395,29 +395,29 @@ msgstr "风暴谷"
 msgid "Tan-Rarbag"
 msgstr "坦-拉贝格"
 
-#. [side]: type=Draug, id=General Heravan
-#. [side]: type=Orcish Warlord, id=Tan-Halg
-#. [side]: type=Orcish Warlord, id=Tan-Rinak
 #. [side]: type=Orcish Warlord, id=Tan-Vrodis
 #. [side]: type=Orcish Warlord, id=Tan-Bok
 #. [side]: type=Orcish Warlord, id=Tan-Hogar
-#. [side]: type=Orcish Warlord, id=Tan-Gralg
-#. [side]: type=Orcish Warlord, id=Tan-Rugar
-#. [side]: type=Orcish Warlord, id=Ut'Tan-Grilg
-#. [side]: type=Orcish Warlord, id=Tan-Pulk
-#. [side]: type=Orcish Warlord, id=Tan-Vragar
-#. [side]: type=Orcish Warlord, id=Tan-Burg
-#. [side]: type=Orcish Warlord, id=Ut'Tan-Vrork
+#. [side]: type=Draug, id=General Heravan
+#. [side]: type=Orcish Warlord, id=Tan-Halg
+#. [side]: type=Orcish Warlord, id=Tan-Rinak
+#. [side]: type=Orcish Warlord, id=Tan-Schmog
+#. [side]: type=Orcish Warlord, id=Tan-NauVong
 #. [side]: type=Orcish Warlord, id=Tan-Erirt
 #. [side]: type=Orcish Warlord, id=Tan-Gagar
 #. [side]: type=Troll Warrior, id=Thruf
-#. [side]: type=Orcish Warlord, id=Tan-Schmog
-#. [side]: type=Orcish Warlord, id=Tan-NauVong
+#. [side]: type=Orcish Warlord, id=Tan-Rarbag
+#. [side]: type=Orcish Warrior, id=Tan-Erang
+#. [side]: type=Orcish Warlord, id=Tan-Gralg
+#. [side]: type=Orcish Warlord, id=Tan-Rugar
+#. [side]: type=Orcish Warlord, id=Tan-Vragar
+#. [side]: type=Orcish Warlord, id=Tan-Burg
+#. [side]: type=Orcish Warlord, id=Ut'Tan-Vrork
+#. [side]: type=Orcish Warlord, id=Ut'Tan-Grilg
+#. [side]: type=Orcish Warlord, id=Tan-Pulk
 #. [side]: type=Orcish Warlord, id=Tan-Harak
 #. [side]: type=Orcish Warlord, id=Tan-Hork
 #. [side]: type=Orcish Warlord, id=Tan-Gulo
-#. [side]: type=Orcish Warlord, id=Tan-Rarbag
-#. [side]: type=Orcish Warrior, id=Tan-Erang
 msgid "Orcs"
 msgstr "兽人"
 
@@ -526,7 +526,7 @@ msgid "The Lady Outlaw will do."
 msgstr "你可以叫我亡命小姐。"
 
 #. [unit]: id=Lady Outlaw, type=$wesfolk_leader_store.type
-#. [command]
+#. [then]
 msgid "Lady Outlaw"
 msgstr "亡命小姐"
 
@@ -975,8 +975,8 @@ msgid ""
 "with the orcs!"
 msgstr "啊棒极了，现在要去森林……我真应该留在家里，和兽人比划比划！"
 
-#. [message]: speaker=Sir Ruddry
 #. [message]: speaker=Sir Ladoc
+#. [message]: speaker=Sir Ruddry
 msgid "Sir, if you don’t mind, I’ll go with you."
 msgstr "领主，如果您允许的话，我想和你们一起行动。"
 
@@ -1244,7 +1244,7 @@ msgstr ""
 "们下场，就会和那些剩下的怪物一样。"
 
 #. [message]: speaker=Prince Haldric
-msgid "We will help. "
+msgid "We will help."
 msgstr "我们会帮忙的。"
 
 #. [message]: speaker=Prince Haldric
@@ -1439,8 +1439,8 @@ msgstr ""
 msgid "Lich-Lord Lenvan"
 msgstr "巫妖王蓝温"
 
-#. [side]: type=Lich, id=Lich-Lord Caror
 #. [side]: type=Lich, id=Lich-Lord Lenvan
+#. [side]: type=Lich, id=Lich-Lord Caror
 #. [side]: type=Spectre, id=Isorfilad
 #. [side]: type=Spectre, id=Tinoldor
 msgid "Undead"
@@ -1891,8 +1891,8 @@ msgid ""
 msgstr ""
 "那一天，许多优秀战士的热血洒在了这片冻土上。但是兽人仍然步步紧逼。国王没有留"
 "下继承人，其他的贵族已经逃到南湾去了。我们正抓紧时间转移剩余的平民。军队的浴"
-"血奋战给我们争取了时间，几乎所有的平民和绝大多数的过冬储备已经运到了南湾，那"
-"儿现在挤满了各处而来的难民。"
+"血奋战给我们争取了时间，几乎所有的平民和大多数的过冬储备已经运到了南湾，那儿"
+"现在挤满了各处而来的难民。"
 
 #. [message]: speaker=Commander Aethyr
 msgid ""
@@ -2150,6 +2150,10 @@ msgstr "坦-普克"
 msgid "Lich-Lord Caror"
 msgstr "巫妖王卡尔"
 
+#. [side]
+msgid "Yetis"
+msgstr "雪人"
+
 #. [objective]: condition=win
 msgid "Kill the lich to get his book"
 msgstr "杀死巫妖并取得他的笔记"
@@ -2227,11 +2231,11 @@ msgstr ""
 msgid ""
 "This monolith was erected by me, ― (<i>chipped away</i>), first Mage of the "
 "good people of the Green Isle. By its power the Lich-Lord is bound in stone. "
-"To end the spell a noble of the line of Kings should utter the following...."
+"To end the spell a noble of the line of Kings should utter the following..."
 msgstr ""
-"铭文:这块石碑由我，——（<I>名字被削去</i>），绿岛虔诚之民的第一个魔法师所竖"
-"立。借助它的力量巫妖将被困在石中。如果要解除这个咒语，必须由具有王室血统者念"
-"诵如下……"
+"铭文:这块石碑由我，——（<I>名字被削去</i>），绿岛虔诚之民的首席法师所竖立。借"
+"助它的力量，巫妖领主困于此石中。如果要解除这个咒语，必须由具有王室血统者念诵"
+"如下……"
 
 #. [option]
 msgid "I think I’ll say that magic phrase."
@@ -2732,6 +2736,10 @@ msgstr "火焰宝石"
 msgid "Death of King Addroran IX"
 msgstr "艾德卓然九世国王死亡"
 
+#. [objective]: condition=lose
+msgid "Death of Lord Typhon"
+msgstr "泰丰领主死亡"
+
 #. [message]: speaker=narrator
 msgid ""
 "Several months pass. Jessene has translated Lich-Lord Caror’s Book of Fire "
@@ -2836,10 +2844,6 @@ msgstr ""
 #. [message]: speaker=narrator
 msgid "You can now recruit merfolk!"
 msgstr "你现在可以招募人鱼了！"
-
-#. [objective]: condition=lose
-msgid "Death of Lord Typhon"
-msgstr "泰丰领主死亡"
 
 #. [message]: speaker=King Addroran IX
 msgid "Make haste. We must secure the frontier or it’s all over!"
@@ -4081,13 +4085,13 @@ msgstr "哈德里克，清醒一点！"
 msgid "Get her before she ensorcels us all!"
 msgstr "在她施法把我们全迷住之前干掉她！"
 
-#. [objective]: condition=win
-msgid "Defeat the Vampire Queen"
-msgstr "击败吸血女王"
-
 #. [message]: speaker=unit
 msgid "The temple is quite empty."
 msgstr "这个神殿空荡荡的。"
+
+#. [objective]: condition=win
+msgid "Defeat the Vampire Queen"
+msgstr "击败吸血女王"
 
 #. [message]: speaker=narrator
 msgid ""
@@ -5484,8 +5488,8 @@ msgstr ""
 msgid "female^Wesfolk Lady"
 msgstr "韦福克贵妇"
 
-#. [unit_type]: id=Wesfolk Leader, race=human
 #. [unit_type]: id=Wesfolk Lady, race=human
+#. [unit_type]: id=Wesfolk Leader, race=human
 msgid ""
 "Born in the Wesfolk aristocracy, she and her people were excluded from "
 "society by their lords, who betrayed their loyalty when a war against "
